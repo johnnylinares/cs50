@@ -21,9 +21,32 @@ footer p {
     color: gray;
 }
 
+.main-description {
+    padding: 40px;
+}
+
+.main-mission {
+    padding: 40px;
+}
+
+.main-contact {
+    padding: 40px;
+}
+
+.main-pricing {
+    padding: 40px;
+}
+
 .main-info {
-    padding: 20px;
+    background-image: url('background.jpg');
+    background-size: cover; 
+    background-position: top;
+    background-repeat: no-repeat;
+
+    padding: 8rem 2rem;
     text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .header {
@@ -56,6 +79,11 @@ footer p {
     display: flex;
     gap: 1.5rem;
 }
+.main-nav a {
+    color: inherit; /* Hereda el color blanco del ul */
+    text-decoration: none; /* Quita el subrayado */
+}
+
 
 .footer {
     display: flex;
